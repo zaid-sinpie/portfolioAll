@@ -5,7 +5,7 @@ function App() {
     <div className="flex items-center justify-center h-[100vh] w-full bg-primary">
       <Certification/>
       <Buttons>Login</Buttons>
-    <Buttons>Logout</Buttons>
+   
     </div>
   );
 }
