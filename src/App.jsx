@@ -1,9 +1,10 @@
+import Education from "./components/Education.jsx"
 
 function App() {
 
   return (
     <>
-
+     <Education/>
     </>
   )
 }
