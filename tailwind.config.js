@@ -2,12 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #7D8ABC, #304463)', // Red-500 to Orange-500
+      },
+    },
     colors: {
-      primary:"131842",
-      secondary:"#45474B",
-      actionColor: "#E9FF97",
+      firstPrimary:"#304463",
+      primary:"#304463",
+      secondary:"#AD88C6",
+      actionColor: "#FFE6E6",
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 };
