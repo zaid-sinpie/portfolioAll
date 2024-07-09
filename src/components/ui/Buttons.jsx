@@ -8,3 +8,4 @@ const Buttons = ({children}) => {
 
 export default Buttons
 // rafce create auto function
+// SHift+ALt+f => sett all data in format
