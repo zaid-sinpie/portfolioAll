@@ -2,7 +2,7 @@ import React from 'react'
 
 const Buttons = ({children}) => {
   return (
-    <button className='bg-actionColor px-4 py-2 rounded-md font-bold'>{children}</button>
+    <button className='bg-actionColor px-4 py-2 rounded-md font-bold text-[#901f1f] hover:text-[#000]'>{children}</button>
   )
 }
 
