@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ name, gitLink, link }) => {
   return (
-    <figure className="flex max-sm:flex-col justify-between items-center px-4  text-center py-2 bg-firstPrimary rounded-sm">
+    <figure className="flex max-sm:flex-col justify-between items-center text-center bg-firstPrimary rounded-sm bg-highlightBg border border-activeColor px-2 py-1">
       <h2 className="text-[#d4d4d4] uppercase hover:underline decoration-secondary font-semibold cursor-default">
         {name}
       </h2>
@@ -10,14 +10,14 @@ const Project = ({ name, gitLink, link }) => {
      <a
         target="_blank"
         href={link}
-        className="cursor-pointer bg-actionColor text-[#000] hover:text-[#dc3838] font-bold px-4 py-2 rounded-md"
+        className="cursor-pointer bg-highlightBg text-activeColor hover:text-actionColor hover:border-actionColor border border-activeColor px-4 py-2 rounded-md"
       >
         Link
       </a>
       <a
         target="_blank"
         href={gitLink}
-        className="cursor-pointer bg-actionColor text-[#000] hover:text-[#dc3838] font-bold px-4 py-2 rounded-md"
+        className="cursor-pointer bg-highlightBg text-activeColor hover:text-actionColor border border-activeColor hover:border-actionColor px-4 py-2 rounded-md"
       >
         GitLink
       </a>

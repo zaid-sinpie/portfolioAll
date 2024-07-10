@@ -8,9 +8,9 @@ export default {
       },
     },
     colors: {
-      firstPrimary:"#304463",
-      primary:"#304463",
-      secondary:"#AD88C6",
+      baseColor:"#3e3e3e",
+      activeColor:"#44ff60",
+      highlightBg:"#44ff6036",
       actionColor: "#FFE6E6",
     },
   },

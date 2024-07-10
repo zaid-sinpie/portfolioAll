@@ -1,15 +1,14 @@
-
-import React from 'react';
-import Education from './ui/Education';
-import educationData from '../education';
+import React from "react";
+import Education from "./ui/Education";
+import educationData from "../education";
 
 const Educations = () => {
   return (
-    <section className="p-6">
-      <h1 className="text-2xl font-bold mb-6">Education</h1>
+    <section className="py-6 px-4 bg-highlightBg border border-activeColor rounded-sm">
+      <h1 className="text-2xl font-bold mb-6 text-actionColor">Education</h1>
       {educationData.map((edu, index) => (
         <figure key={index} className="mb-6">
-          <Education 
+          <Education
             institution={edu.institution}
             degree={edu.degree}
             year={edu.year}
