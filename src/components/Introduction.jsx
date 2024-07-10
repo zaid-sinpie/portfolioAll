@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <figure className="flex flex-col w-[50%] border border-activeColor bg-[#44ff6036] rounded-sm px-3 py-2">
+    <figure className="flex flex-col w-full max-sm:w-full border border-activeColor bg-[#44ff6036] rounded-sm px-3 py-2">
       <article>
         <div className="display-flex mb-4  h-fit">
           <h1 className="text-2xl font-bold text-[#fff]">

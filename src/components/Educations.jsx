@@ -4,7 +4,7 @@ import educationData from "../education";
 
 const Educations = () => {
   return (
-    <section className="py-6 px-4 bg-highlightBg border border-activeColor rounded-sm">
+    <section className="w-full py-6 px-4 bg-highlightBg border border-activeColor rounded-sm">
       <h1 className="text-2xl font-bold mb-6 text-actionColor">Education</h1>
       {educationData.map((edu, index) => (
         <figure key={index} className="mb-6">

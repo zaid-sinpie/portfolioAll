@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ name, gitLink, link }) => {
   return (
-    <figure className="flex max-sm:flex-col justify-between items-center text-center bg-firstPrimary rounded-sm bg-highlightBg border border-activeColor px-2 py-1">
+    <figure className="flex justify-between items-center text-center bg-firstPrimary rounded-sm bg-highlightBg border border-activeColor px-2 py-1">
       <h2 className="text-[#d4d4d4] uppercase hover:underline decoration-secondary font-semibold cursor-default">
         {name}
       </h2>

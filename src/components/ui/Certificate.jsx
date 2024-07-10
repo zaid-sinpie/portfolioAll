@@ -2,7 +2,7 @@ import React from "react";
 
 const Certificate = ({ name, link }) => {
   return (
-    <figure className="flex max-sm:flex-col justify-between items-center px-4 text-center py-2 border border-activeColor rounded-sm shadow-activeColor bg-highlightBg">
+    <figure className="flex justify-between items-center px-4 text-center py-2 border border-activeColor rounded-sm shadow-activeColor bg-highlightBg">
       <h2 className="text-[#d4d4d4] font-semibold cursor-default">
         {name}
       </h2>
