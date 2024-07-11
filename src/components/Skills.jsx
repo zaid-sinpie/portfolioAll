@@ -1,6 +1,8 @@
-import skills from "../skills.js";
+import { data } from "../data.js";
+
 
 const Skills = () => {
+  const {skills} = data;
   return (
     <article className="w-full flex flex-col gap-2 bg-highlightBg border border-activeColor px-2 py-1">
       <h2 className="text-xl font-bold text-actionColor">Technical Skills</h2>
@@ -16,7 +18,9 @@ const Skills = () => {
           );
         })}
       </div>
-      <h2 className="text-xl font-bold text-actionColor">Interpersonal Skills</h2>
+      <h2 className="text-xl font-bold text-actionColor">
+        Interpersonal Skills
+      </h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, idx) => {
           return (

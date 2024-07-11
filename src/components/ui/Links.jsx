@@ -1,9 +1,17 @@
 import Buttons from "./Buttons.jsx";
 
 const Links = () => {
+  function goToDrive() {
+    location.href = window.open(
+      "https://drive.google.com/file/d/1BBUrAyKGMco0k65xsjOO7rap21jcR7Lc/view?usp=sharing"
+    );
+  }
   return (
     <figure className="flex flex-col items-start">
-      <button className="px-4 py-2 w-fit rounded-sm text-activeColor hover:text-[#e3e3e3] border border-activeColor hover:border-[#e3e3e3] bg-[#44ff6036]">
+      <button
+        onClick={goToDrive}
+        className="px-4 py-2 w-fit rounded-sm text-activeColor hover:text-[#e3e3e3] border border-activeColor hover:border-[#e3e3e3] bg-[#44ff6036]"
+      >
         Resume
       </button>
       <div className="flex items-center justify-center mt-2 mb-2 gap-1">
