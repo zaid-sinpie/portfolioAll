@@ -7,6 +7,9 @@ import Contact from "./components/Contact.jsx";
 import Links from "./components/ui/Links.jsx";
 
 function App() {
+
+  // code to fetch data from backend
+    // end of code to fetch data from backend
   return (
     <div className="flex gap-2 max-sm:flex-col max-sm:py-4 max-sm:px-2 items-center justify-around h-screen max-sm:h-auto w-full bg-[#0f0924]">
       <div className="w-[50%] max-sm:w-full flex flex-col gap-4 px-2 py-2">
